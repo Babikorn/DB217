@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Factorial Calculator</title>
+  </head>
+  <body>
+    <h1>Factorial Calculator</h1>
+    <label for="num">Number:</label>
+    <input type="number" id="num">
+    <br>
+    
+    <button onclick="calculateArea()">Calculate Area</button>
+    <p id="result"></p>
+    
+    <script>
+      function calculateArea() {
+        let num = parseFloat(document.getElementById("num").value);
+        let result = 1;
+        for (let i=1; i<=num; i++) {
+            result *= i
+             ;
+
+        }
+        let area = num
+        document.getElementById("result").innerHTML = result;
+      }
+    </script>
+  </body>
+</html>
