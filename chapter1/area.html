@@ -15,6 +15,15 @@
     <p id="result"></p>
 
     <script>
+      function randomcolor() {
+        const Maxcolor = 0xffffff;
+        let decColorWithPoint = Math.random() * (Maxcolor + 1);
+        let decColor = Math.floor(decColorWithPoint);
+        let hexclolor = deccolor . toString(16);
+        return '#' +hexcolor;
+      }
+        Math.floor (Math.random() * (Maxcolor + 1))
+
       function calculateArea() {
         let length = parseFloat(document.getElementById("length").value);
         let width = parseFloat(document.getElementById("width").value);
