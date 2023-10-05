@@ -33,6 +33,7 @@ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
     height: 180px;
     padding: 2px;
     margin: 0 auto;
+    overflow: hidden;
     display: flex;
 }
 
@@ -62,6 +63,7 @@ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
     left: -16px;
     right: 50px;
     top: 50px;
+    z-index: 1000;
 }
 
 .black::after {
@@ -72,4 +74,33 @@ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
     position: absolute;
     left: -16px;
     border-radius: 0 0 3px 3px;
+    z-index: 999;
+  }
+  .key:active {
+    transform: translateY(2px);
+  }
+  .label {
+    text-align: center;
+    font-family: sans-serif;
+    line-height: 2em;
+    font-size: 0.8em;
+  }
+  @media (max-width: 768px) {
+    #piano {
+      width: 358px;
+    }
+  
+    #keys {
+      width: 318px;
+    }
+  }
+  
+  @media (max-width: 1199px) and (min-width: 769px) {
+    #piano {
+      width: 675px;
+    }
+  
+    #keys {
+      width: 633px;
+    }
   }
