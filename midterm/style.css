@@ -1,0 +1,36 @@
+td {
+  width: 50px;
+  height: 50px;
+  background-color: cyan;
+  
+
+}
+.pawn.black {
+  background-color: black;
+  width: 992px;
+height: 290px;
+border-radius: 10px;
+margin: 80px auto;
+}
+#black,
+#white {
+  margin-top: 20px;
+  text-align: center;
+  width: 108px;
+  font-size: 28px;
+padding: 10px 0px 10px 0px;
+font-weight: bold;
+display: inline-block;
+
+}
+
+#black {
+  background-color: black;
+  color: white;
+}
+
+#white {
+  background-color: white;
+  color: black;
+}
+
