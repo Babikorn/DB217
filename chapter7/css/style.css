@@ -1,0 +1,71 @@
+/* This class is used to style a deck card. */
+.deck-card {
+  /* The background image of the card is set to 'deck.png'. */
+
+  /* The width and height of the card are set to 79px and 123px respectively. */
+
+  /* The card is displayed as an inline-block element. */
+
+  /* The margin around the card is set to 5px. */
+
+}
+
+/* These classes are used to set the vertical position of the background image for each suit. */
+.club {
+
+}
+.diamond {
+
+}
+.heart {
+
+}
+.spade {
+
+}
+
+/* These classes are used to set the horizontal position of the background image for each card rank. */
+.mA {
+
+}
+.m2 {
+
+}
+.m3 {
+
+}
+.m4 {
+
+}
+.m5 {
+
+}
+.m6 {
+
+}
+.m7 {
+
+}
+.m8 {
+
+}
+.m9 {
+
+}
+.m10 {
+
+}
+.mJ {
+
+}
+.mQ {
+
+}
+.mK {
+
+}
+
+body {
+  padding: 10px 0;
+  background-color: darkgreen;
+}
