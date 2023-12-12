@@ -1,0 +1,21 @@
+body {
+    background-image: url('../chapter7/WEvrDg.jpg');
+}
+.flexbox {
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.item {
+    display: block;
+    box-sizing: border-box;
+    width: 50%;
+}
+.content {
+    background-color: rgb(240, 209, 73);
+    border: 2px solid rgb(0, 0, 0);
+    padding: 16px;
+    height: 100%;
+}
